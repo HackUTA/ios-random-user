@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
     
@@ -15,6 +17,19 @@ class ViewController: UIViewController {
         print("You prssed this")
         
         nameLabel.text = "YOU PRESSED ME 🙌"
+        
+        
+        Alamofire.request("https://randomuser.me/api").responseJSON { response in
+            if let json = response.result.value {
+                let data = JSON(json)
+                
+                let name = data["results"][0]["name"]
+                let firstName = name["first"].stringValue
+                let lastName = name["last"].stringValue
+                
+                self.nameLabel.text = "Hello, \(firstName) \(lastName)"
+            }
+        }
     }
     
     @IBOutlet weak var nameLabel: UILabel!
