@@ -9,6 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBAction func btnPressed(_ sender: UIButton) {
+        print("You prssed this")
+        
+        nameLabel.text = "YOU PRESSED ME 🙌"
+    }
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

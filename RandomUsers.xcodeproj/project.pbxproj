@@ -12,6 +12,7 @@
 		7EB235631F804DDB003195F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB235611F804DDB003195F8 /* Main.storyboard */; };
 		7EB235651F804DDB003195F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB235641F804DDB003195F8 /* Assets.xcassets */; };
 		7EB235681F804DDB003195F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB235661F804DDB003195F8 /* LaunchScreen.storyboard */; };
+		7EB235701F805120003195F8 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2356F1F805120003195F8 /* RandomViewController.swift */; };
 		E214515DE0C8FA2AC74AE86E /* Pods_RandomUsers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1B294C30087C2B9A10BFAD /* Pods_RandomUsers.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		7EB235641F804DDB003195F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EB235671F804DDB003195F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EB235691F804DDB003195F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB2356F1F805120003195F8 /* RandomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
 		8A1A43684B6924C519CFB547 /* Pods-RandomUsers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomUsers.release.xcconfig"; path = "Pods/Target Support Files/Pods-RandomUsers/Pods-RandomUsers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				7EB235641F804DDB003195F8 /* Assets.xcassets */,
 				7EB235661F804DDB003195F8 /* LaunchScreen.storyboard */,
 				7EB235691F804DDB003195F8 /* Info.plist */,
+				7EB2356F1F805120003195F8 /* RandomViewController.swift */,
 			);
 			path = RandomUsers;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB235701F805120003195F8 /* RandomViewController.swift in Sources */,
 				7EB235601F804DDB003195F8 /* ViewController.swift in Sources */,
 				7EB2355E1F804DDB003195F8 /* AppDelegate.swift in Sources */,
 			);
@@ -386,6 +390,7 @@
 				7EB2356E1F804DDB003195F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
